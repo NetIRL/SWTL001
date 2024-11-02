@@ -162,9 +162,7 @@ int main( void )
     // lv_init( );
     // lv_port_disp_init( );
     printf( "LR11XX updater tool %s\n", DEMO_VERSION );
-    // LOG_DBG("H3");
-    k_msleep(100);
-    // printf()
+
     // gui_init( LR11XX_FIRMWARE_UPDATE_TO, LR11XX_FIRMWARE_VERSION );
     // bool ret = true;
 
@@ -196,7 +194,7 @@ int main( void )
 
 	/* Re-enable IRQ */
 	hal_mcu_enable_irq();
-    printf("%d %s\n", __LINE__, __FILE__);
+    // printf("%d %s\n", __LINE__, __FILE__);
 	/* Tests */
 	// SMTC_HAL_TRACE_MSG("\n\n\nPORTING_TEST example is starting\n\n");
 

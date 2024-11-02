@@ -138,7 +138,7 @@ lr11xx_fw_update_status_t lr11xx_update_firmware( const void* radio, lr11xx_fw_u
     printf( " - Chip hardware version   = 0x%02X (0x22 for V2C)\n", version_bootloader.hw );
     printf( " - Chip bootloader version = 0x%04X \n", version_bootloader.fw );
     k_msleep(100);
-    printf("%d %s\n", __LINE__, __FILE__);
+    // printf("%d %s\n", __LINE__, __FILE__);
     if( lr11xx_is_chip_in_production_mode( version_bootloader.type ) == false )
     {
         printf("%d %s chip is not production mode\n", __LINE__, __FILE__);
